@@ -1,6 +1,8 @@
 # MoNuSeg
 MoNuSeg- Multi-organ nuclei segmentation from H&amp;E stained histopathology image using Deep Learning
+
 U-Net Model creation for Image Segmentation on MoNuSeg Dataset
+
 Steps followed:
 1. Data Pre-processing
 1.1 Binary & Color mask generation from the image files and xml files provided (loop_dir.m)
@@ -14,3 +16,15 @@ Steps followed:
 
 3. Data Post-processing:
 3.1 Instance segmentation is done using watershed and extract the properties of the detected regions & capture into a Pandas dataframe (watersheding.py)
+
+4. Trained Model: (MoNuSeg_test.hdf5)
+
+5. Test image sample: (Test_image.tif)
+
+6. Ground Truth Mask of the sample test image: (Ground_Truth_Mask.tif)
+
+7. Predicted Mask of the sample test image by the model: (Mode_Generated_Mask.jpg)
+
+8. Watersheding of the predicted mask of the sample image: (Model_Generated_Mask.jpg)
+
+9. Properties of the predicted mask of the sample image: (Properties_Model_Generated_Mask.csv)
