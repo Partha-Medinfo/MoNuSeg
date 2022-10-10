@@ -31,7 +31,7 @@ Steps followed:
 
 6. Ground Truth Mask of the sample test image: (Ground_Truth_Mask.tif)
 
-7. Predicted Mask of the sample test image by the model: (Mode_Generated_Mask.jpg)
+7. Predicted Mask of the sample test image by the model: (Model_Generated_Mask.jpg)
 
 8. Watersheding of the predicted mask of the sample image: (Model_Generated_Mask.jpg)
 
